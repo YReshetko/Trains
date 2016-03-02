@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Train</title>
+    <script src="src/lib/konva.min.js"></script>
+    <script src="src/run.js"></script>
+</head>
+<body>
+    <div id="container"></div>
+    <br><br>
+    <textarea rows="20" cols="100" id="commands"></textarea>
+    <br>
+    <input type="submit" value="Выполнить" onclick="run()"/>
+    <input type="submit" value="Остановить" onclick="stop()"/>
+<script>
+    window.onload = init();
+</script>
+</body>
+</html>
